@@ -733,9 +733,9 @@ strong {
   color: var(--dark-color);
   display: inline-block;
   vertical-align: top;
-  margin: 2px;
-  width: 30px;
-  height: 30px;
+  margin: 5px;
+  width: 28px;
+  height: 28px;
   line-height: 30px;
   text-align: center;
 }
