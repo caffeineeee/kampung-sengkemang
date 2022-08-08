@@ -10,14 +10,8 @@ function whatsapp() {
     "*Name:* " +
     name +
     "%0a" +
-    "*Email:* " +
-    email +
-    "%0a" +
     "*Phone:* " +
     phone +
-    "%0a" +
-    "*Date:* " +
-    date +
     "%0a" +
     "*Message:* " +
     message;
