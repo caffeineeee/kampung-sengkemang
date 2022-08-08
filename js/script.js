@@ -5,6 +5,7 @@ function whatsapp() {
 
   var url =
     "https://wa.me/6285162745705?text=" +
+    "*Kritik atau Saran pada Website Resmi Kampung SENGKEMANG*%0a%0a" +
     "*Name:* " +
     name +
     "%0a" +
