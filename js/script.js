@@ -4,15 +4,15 @@ function whatsapp() {
   var message = document.getElementById("message").value;
 
   var url =
-    "https://wa.me/6285162745705?text=" +
+    "https://wa.me/6281364496579?text=" +
     "*Kritik atau Saran pada Website Resmi Kampung SENGKEMANG*%0a%0a" +
-    "*Name:* " +
+    "*Nama Pengirim:* " +
     name +
     "%0a" +
-    "*Phone:* " +
+    "*No. Telepon/WhatsApp Pengirim:* " +
     phone +
     "%0a" +
-    "*Message:* " +
+    "*Kritik atau Saran Pengirim:* " +
     message;
 
   window.open(url, "_blank").focus();
