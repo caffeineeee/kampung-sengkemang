@@ -4,7 +4,6 @@ function whatsapp() {
   var message = document.getElementById("message").value;
   var submit = document.getElementById("submit");
 
-
   if (!name || !phone || !message) {
     submit.disabled = true;
   } else {
@@ -22,4 +21,5 @@ function whatsapp() {
 
     window.open(url, "_blank").focus();
   }
+  return submit.disabled = false;
 }
