@@ -334,7 +334,6 @@ strong {
   text-align: right;
 }
 
-
 /*---------------------------------------
   HERO              
 -----------------------------------------*/
@@ -413,7 +412,6 @@ strong {
   height: 70px;
 }
 
-
 /*---------------------------------------
   ABOUT              
 -----------------------------------------*/
@@ -445,7 +443,6 @@ strong {
   margin-bottom: 24px;
   padding: 40px;
 }
-
 
 /*---------------------------------------
   SERVICES              
@@ -491,83 +488,18 @@ strong {
   color: var(--primary-color);
 }
 
-
 /*---------------------------------------
   PROJECTS              
 -----------------------------------------*/
-.projects-thumb {
-  border-radius: 20px;
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 24px;
-  transition: all 0.3s;
-  cursor: pointer;
-}
 
-.projects-thumb-large {
-  min-height: 356px;
-}
-
-.projects-thumb:hover {
-  background: var(--white-color);
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
-}
-
-.projects-thumb:hover .projects-image {
-  transform: scale(1.2);
-}
-
-.projects-thumb:hover .projects-title-wrap {
-  padding-bottom: 30px;
-}
-
-.projects-thumb:hover .custom-btn,
-.projects-btn-wrap .custom-btn:hover {
+.custom-btn, .custom-btn:hover {
   background: var(--primary-color);
 }
 
-.projects-title-wrap {
-  background: linear-gradient(to top, var(--dark-color), transparent 90%);
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  padding: 25px 25px 10px 25px;
-  transition: all 0.2s;
-}
-
-.projects-small-title {
-  color: var(--primary-color);
-  text-transform: uppercase;
-}
-
-.projects-title {
-  color: var(--white-color);
-}
-
-.projects-image {
-  border-radius: 20px;
-  width: 100%;
-  height: auto;
-  transition: all 0.3s;
-}
-
-.projects-thumb-large .projects-image {
-  object-fit: cover;
-  height: 100%;
-}
-
-.projects-btn-wrap {
-  position: absolute;
-  bottom: 25px;
-  right: 25px;
-}
-
-.projects-btn-wrap .custom-btn {
+.custom-btn {
   font-size: 30px;
   padding: 7.5px 15px;
 }
-
 
 /*---------------------------------------
   CONTACT INFO               
@@ -692,15 +624,9 @@ strong {
   color: var(--primary-color);
 }
 
-
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
-@media screen and (min-width: 1600px) {
-  .projects-thumb-large {
-    min-height: 416px;
-  }
-}
 
 @media screen and (max-width: 1280px) {
   .contact svg {
@@ -843,4 +769,3 @@ strong {
     padding-bottom: 10px;
   }
 }
-
